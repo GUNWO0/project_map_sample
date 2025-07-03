@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'map_screen.dart';
+import 'package:map_sample/run_detail_map.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Map Sample', home: const MapScreen());
+    return MaterialApp(title: 'Map Sample', home: const RunDetailMap());
   }
 }
